@@ -92,6 +92,12 @@ GIT
       spree_core (~> 3.0.4)
 
 PATH
+  remote: ../spree_reviews
+  specs:
+    spree_reviews (3.0.4)
+      spree_core (~> 3.0.4)
+
+PATH
   remote: ../spree_simple_sales
   specs:
     spree_simple_sales (3.0.4)
@@ -374,6 +380,7 @@ DEPENDENCIES
   spree_auth_devise!
   spree_gateway!
   spree_i18n!
+  spree_reviews!
   spree_simple_sales!
   spring
   turbolinks
